@@ -13,6 +13,12 @@ body {
   flex: 0 0 230px;
   overflow: scroll;
 }
+
+@media (max-width: 400px) {
+  .sidebar-nav {
+    display: none;
+  }
+}
 .right-page-side {
   background-color: yellow;
   overflow: scroll;
@@ -31,4 +37,5 @@ body {
 }
 .content-container {
   overflow: scroll;
+  flex: 1;
 }
