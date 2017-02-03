@@ -26,12 +26,8 @@ body {
 }
 
 .optional-fixed-footer {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  height: 50px;
-  width: 100%;
-  background-color: pink;
+  flex: 0 0 50px;
+  background: pink;
 }
 .content-container {
   overflow: scroll;
