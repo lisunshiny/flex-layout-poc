@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100vh;
+}
+
+.sidebar-nav  {
+  background: green;
+  flex: 0 0 230px;
+  overflow: scroll;
+}
+.right-page-side {
+  background-color: yellow;
+  overflow: scroll;
+  flex: 1 1%;
+  display: flex;
+  flex-direction: column;
+}
+
+.fixed-top-footer {
+  background-color: pink;
+}
+
+.optional-fixed-footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 50px;
+  width: 100%;
+  background-color: pink;
+}
+.content-container {
+  overflow: scroll;
+}
